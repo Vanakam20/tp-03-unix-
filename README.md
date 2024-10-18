@@ -24,4 +24,20 @@ echo "Voici la liste des paramètres : $@"
 
 chmod +x analyse.sh
 ./analyse.sh param1 param2 param3 param4
+```
+Exécution :
+```
+bash
 
+chmod +x analyse.sh
+./analyse.sh param1 param2 param3 param4
+```
+Résultat attendu :
+```
+bash
+
+Bonjour, vous avez rentré 4 paramètre(s).
+Le nom du script est ./analyse.sh.
+Le 3ème paramètre est param3.
+Voici la liste des paramètres : param1 param2 param3 param4
+```
